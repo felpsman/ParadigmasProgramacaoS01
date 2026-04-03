@@ -7,7 +7,6 @@ void menu()
 	     << "2. Ver Mapa da Sala\n"
 	     << "3. Sair\n";
 }
-// função principal da lógica
 void sistemaCinema(int opcao, int sala[5][5])
 {
 	int f, c;
@@ -52,7 +51,7 @@ int main()
 		cin >> opcao;
 		sistemaCinema(opcao, sala);
 	} while(opcao != 3);
-	//Relatório final
+	//RelatÃ³rio final
 	int ocupados = 0;
 	int vazios = 0;
 	for(int i = 0; i < 5; i++)
