@@ -26,7 +26,7 @@ public class BauDeReliquias
     {
         foreach (var r in reliquias)
         {
-            Console.WriteLine($"Relíquia: {r.NomeItem}");
+            Console.WriteLine($"Reliquia: {r.NomeItem}");
         }
     }
 }
@@ -69,7 +69,7 @@ var itens = new List<ItemDeAcampamento>
 Maga frieren = new Maga("Frieren", itens);
 
 frieren.Bau.GuardarItem(new ReliquiaMagica("Anel de Prata"));
-frieren.Bau.GuardarItem(new ReliquiaMagica("Grimório Antigo"));
+frieren.Bau.GuardarItem(new ReliquiaMagica("Grimorio Antigo"));
 
 Console.WriteLine("Itens de acampamento:");
 foreach (var item in frieren.Itens)
