@@ -31,7 +31,7 @@ public class CacadorAlado : AbominacaoCosmica
 
     public override void Manifestar()
     {
-        Console.WriteLine($"{Nome}: criatura voa mergulhando dos céus sombrios!");
+        Console.WriteLine($"{Nome}: criatura voa mergulhando dos ceus sombrios!");
     }
 }
 
