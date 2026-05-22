@@ -1,0 +1,69 @@
+Nome:Felipe Lamy Rosa Renno
+Matricula:GES-507
+Meu uso da IA no projeto do relatorio 11 foi feito para gerar o codigo a partir das funcoes que eu criei e das especificacoes que eu dei a partir dos slides.
+Prompt:
+"A partir desses metodos, faca a complete o codigo de acordo com o que o exercicio pede em java com poo: 'Imagem do exercicio 1' 
+public class CasteloAnimado {
+    private ArrayList<Divisao> divisoes;
+
+    public CasteloAnimado() {
+        
+    }
+
+    // Adiciona divisao
+    public void adicionarDivisao(Divisao divisao) {
+       
+    }
+
+    // Lista divisoes
+    public void listarDivisoes() {
+      
+}"
+Tive como resultado: 
+"import java.util.ArrayList;
+// Classe CasteloAnimado
+public class CasteloAnimado {
+    private ArrayList<Divisao> divisoes;
+    public CasteloAnimado() {
+        divisoes = new ArrayList<>();
+    }
+    // Adiciona divisao
+    public void adicionarDivisao(Divisao divisao) {
+        divisoes.add(divisao);
+    }
+    // Lista divisoes
+    public void listarDivisoes() {
+        System.out.println("Divisoes do Castelo Animado:");
+        for(int i = 0; i < divisoes.size(); i++) {
+            Divisao divisao = divisoes.get(i);
+            System.out.println("- " + divisao.getNome()
+                    + " -> Funcao: "
+                    + divisao.getFuncao());
+        }
+    }
+}
+"Depois fiz os comentarios. Fiz isso em com todas as classe dos exercicios, e depois pedi para que fizesse a main com o seguinte promt:
+"Faca agora a classe main, juntando tudo de acordo com o exercicio 'Imagem do Exercicio' em java, com POO:"
+Tive o resultado de: 
+"// Classe principal
+public class Main{
+    public static void main(String[] args) {
+        Mago howl = new Mago("Howl", 27);
+        howl.apresentar();
+        // Criando divisoes
+        Divisao quarto = new Divisao("Quarto", "Descanso");
+        Divisao laboratorio = new Divisao("Laboratorio", "Criacao de feiticos");
+        Divisao cozinha = new Divisao("Cozinha", "Preparacao de comidas");
+        CasteloAnimado castelo = new CasteloAnimado();
+        // Adicionando divisoes
+        castelo.adicionarDivisao(quarto);
+        castelo.adicionarDivisao(laboratorio);
+        castelo.adicionarDivisao(cozinha);
+        castelo.listarDivisoes();
+    }
+}
+"
+Apos o resultado, fiz comentarios no codigo. 
+Fiz isso em todos os exercicios, os resultados sao o propio codigo.
+Utilizei o chatGpt versao 5.5/
+Achei bastante eficaz o uso da inteligencia artificial para o codigo, ainda mais comigo criando a funcao.
