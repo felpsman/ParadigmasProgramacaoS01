@@ -1,0 +1,31 @@
+Utilizei a IA para criar a funcao Main dos exercicios.
+Prompt: Faca a main dessas desses codigos em Haskell
+Resultado: "
+main :: IO ()
+main = do
+    let pedido1 = Pedido [Bebida "Cafe" "Quente" 8.0, Bebida "Cha" "Quente" 6.0] Entregue
+    let pedido2 = Pedido [Bebida "Suco" "Gelado" 10.0] Cancelado
+
+    print (valorTotalPedido pedido1)
+    print (valorTotalPedido pedido2)
+    putStrLn (primeiraBebida pedido1)
+
+    let compra1 = Compra [Item "Espada" "Arma" 150.0, Item "Escudo" "Defesa" 80.0, Item "Pocao" "Cura" 30.0] Concluida
+    print (valorFinal compra1)
+
+    let evento1 = Evento [Banda "Banda A" "Rock" 1000.0, Banda "Banda B" "Pop" 1500.0] Ativo
+    let evento2 = Evento [Banda "Banda C" "Jazz" 800.0] Encerrado
+    let evento3 = Evento [Banda "Banda D" "Metal" 1200.0] EventoCancelado
+
+    print (custoTotalEvento evento1)
+    putStrLn (bandaAbertura evento1)
+    putStrLn (bandaEncerramento evento1)
+
+    let atendimento1 = Atendimento [Servico "Banho" "Basico" 50.0, Servico "Massagem" "Extra" 80.0] Finalizado
+    let atendimento2 = Atendimento [Servico "Banho" "Basico" 50.0, Servico "Ervas" "Extra" 40.0, Servico "Massagem" "Extra" 80.0, Servico "Comida" "Extra" 30.0] EmAndamento
+
+    print (valorFinalAtendimento atendimento1)
+    putStrLn (primeiroServico atendimento1)
+
+    print (valorFinalAtendimento atendimento2)
+    putStrLn (primeiroServico atendimento2)"
