@@ -1,3 +1,4 @@
+Nome:Felipe Lamy Rosa Renno - 507 - GES
 Utilizei ChatGPT versao 5.5 para realizar os exercicios.
 Fiz o primeiro exercicio sem usar IA para poder mandar esse primeiro codigo como base para IA.
 Depois de fazer o primeiro exercicio, escrevi as descricoes dos exercicios e pedi para que fizesse aqueles exercicios em commonLisp com o meu codigo de exemplo.
